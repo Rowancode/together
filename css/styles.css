@@ -171,7 +171,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
 Global Styles
 ========================================================================== */
-a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
+a { color: rgba(61, 201, 179, 1); -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 22px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
@@ -188,6 +188,7 @@ h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
 .inner { padding-top: 170px; }
+#contact-deetz p:nth-of-type(1) { font-size: 15px; }
 /* ==========================================================================
 Navigation
 ========================================================================== */
@@ -234,6 +235,7 @@ Features
 .icon { height: 175px; width: 175px; line-height: 175px; max-width: 100%; background: #3dc9b3; border-radius: 50%; -o-border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 .how-it-works-left { line-height: 35px; }
 .how-it-works-right { line-height: 40px; padding-top: 8px;}
+#oversized p:nth-of-type(4) { font-size: 24px; font-style: italic; font-weight: 600; color: rgba(61, 201, 179, 1); }
 /* ==========================================================================
 iPhone Section
 ========================================================================== */
